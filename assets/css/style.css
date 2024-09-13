@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    padding: 0 0 40px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    justify-content: space-between;
+
+}
+
+#gifts-section {
+    background-color: aqua;
+    padding: 40px 0px;
+}
+
+.gifts-item {
+    margin: 0 50px 40px;
+}
+
+.gifts-item > img {
+    width: 300px;
+}
