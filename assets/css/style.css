@@ -1,7 +1,12 @@
 #row {
     display: flex;
+    background-color: brown;
+}
+
+.best-item {
+    margin: 30px;
 }
 
 .best-item > img {
     height: 30rem;
-};
+}
