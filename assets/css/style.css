@@ -4,6 +4,19 @@
     text-align: center;
 }
 
+#row {
+    display: flex;
+    justify-content: center;
+}
+
+.best-item {
+    margin: 30px;
+}
+
+.best-item > img {
+    height: 30rem;
+}
+
 section {
     padding: 40px 0;
 }
