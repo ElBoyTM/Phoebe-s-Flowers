@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    color: white;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+header, footer {
+    background-color: #94a68c;
+}
+/* set the header to row */
+header {
+    height: 80px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: flex;
+}
+
+footer {
+    height: 160px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+main {
+    background-color: #c2c9a8;
+    background-image: url("../images/flowers-cool.png");
+    height: 560px;
+}
+
+#items {
+    padding: 22px 0 0 32px;
+}
+
+#title {
+    padding-top: 16px;
+}
