@@ -2,3 +2,7 @@ body {
     background-color: #FFDABC;
     background-image: url("../images/flowers-warm.png");
 }
+
+#box {
+    background-color: white;
+}
