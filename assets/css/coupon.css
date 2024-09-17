@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
 main {
     background-color: #FFDABC;
     background-image: url("../images/flowers-warm.png");
@@ -10,6 +15,8 @@ main {
     justify-content: center;
     align-items: center;
     height: 600px;
+    font-family: 'Poppins-Regular';
+    padding: 40px;
 }
 
 #box {
@@ -34,26 +41,39 @@ button {
 
 h1 {
     color: #E58673;
+    font-size: 96px;
 }
 
 h2 {
     color: #8A8A8A;
+    font-size: 24px;
+    padding-bottom: 40px;
 }
 
 a {
     color: #A7A7A7;
+    font-size: 16px;
 }
 
 input {
     border: 2px solid #8A8A8A;
+    width: 545px;
+    height: 60px;
+    font-size: 35px;
+    margin-bottom: 32px;
 }
 
 ::placeholder {
     color: #A7A7A7;
+    font-size: 35px;
 }
 
 button {
+    width: 545px;
+    height: 60px;
     background-color: #E58673;
     color: white;
+    font-size: 24px;
     border: 0;
+    margin-bottom: 8px;
 }
