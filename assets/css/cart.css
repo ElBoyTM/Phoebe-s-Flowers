@@ -90,8 +90,9 @@ button {
 }
 
 #title {
-    /* padding-top: 16px; */
-    background-color: red;
+    position: absolute;
+    top: 16px;
+    left: 215px;
 }
 
 #empty {
