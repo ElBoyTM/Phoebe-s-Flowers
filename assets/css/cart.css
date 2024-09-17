@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("../fonts/Poppins-SemiBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1 {
+    font-family: 'Poppins-Regular';
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'Poppins-Regular';
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Poppins-Regular';
+}
+
+header, footer {
+    background-color: #94a68c;
+}
+/* set the header to row */
+header {
+    height: 80px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: flex;
+    width: 500px;
+    align-items: center;
+
+}
+
+footer {
+    height: 150px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 500px;
+}
+
+main {
+    display: flex;
+    background-color: #c2c9a8;
+    background-image: url("../images/flowers-cool.png");
+    height: 560px;
+    width: 500px;
+}
+
+div > h1 {
+    width: 80%;
+    padding: 24px 0;
+}
+
+footer > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+button {
+    width: 468px;
+    height: 60px;
+    background-color: #402e2a;
+    border-radius: 12px;
+    margin: 24px 16px 16px 16px;
+    font-family: 'Poppins-SemiBold';
+    font-size: 24px;
+    border: 0;
+}
+
+#items {
+    padding: 0 0 0 32px;
+}
+
+#title {
+    position: absolute;
+    top: 16px;
+    left: 215px;
+}
+
+#empty {
+    display: flex;
+    background-color: #402e2a;
+    width: 453px;
+    border-radius: 16px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+#total-left {
+    padding: 0 0 0 24px;
+    margin: 16px 0 0 0;
+}
+
+#total-right {
+    padding: 0 24px 0 0;
+    margin: 16px 0 0 0;
+}
+
