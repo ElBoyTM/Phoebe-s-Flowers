@@ -18,3 +18,7 @@
     font-family: "DeliusSwashCaps";
     src: url("../fonts/DeliusSwashCaps-Regular.ttf");
 }
+
+h1 {
+    font-family: 'Poppins-SemiBold';
+}
