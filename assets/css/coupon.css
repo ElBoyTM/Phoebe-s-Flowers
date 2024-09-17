@@ -1,6 +1,15 @@
-body {
+* {
+    margin: 0;
+}
+
+main {
     background-color: #FFDABC;
     background-image: url("../images/flowers-warm.png");
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
 }
 
 #box {
@@ -9,6 +18,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     border: 15px solid #E58673;
+    width: 625px;
 }
 
 input,
