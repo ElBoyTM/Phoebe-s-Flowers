@@ -6,6 +6,18 @@ body {
 #box {
     background-color: white;
     text-align: center;
+    margin: 0 auto;
     padding: 20px;
     border: 15px solid #E58673;
+}
+
+input,
+button,
+a {
+    display: block;
+}
+
+input,
+button {
+    margin: auto;
 }
