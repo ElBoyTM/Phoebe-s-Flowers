@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+main {
+    background-color: #FFDABC;
+    background-image: url("../images/flowers-warm.png");
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#box {
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border: 15px solid #E58673;
+    width: 625px;
+}
+
+input,
+button,
+a {
+    display: block;
+}
+
+input,
+button {
+    margin: auto;
+}
+
+h1 {
+    color: #E58673;
+}
+
+h2 {
+    color: #8A8A8A;
+}
+
+a {
+    color: #A7A7A7;
+}
+
+input {
+    border: 2px solid #8A8A8A;
+}
+
+::placeholder {
+    color: #A7A7A7;
+}
+
+button {
+    background-color: #E58673;
+    color: white;
+    border: 0;
+}
