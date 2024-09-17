@@ -41,3 +41,8 @@ input {
 ::placeholder {
     color: #A7A7A7;
 }
+
+button {
+    background-color: #E58673;
+    color: white;
+}
