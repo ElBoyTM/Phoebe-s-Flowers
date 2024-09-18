@@ -50,8 +50,8 @@ h2 {
 .best-button {
     display: none;
     background-color: #A7A7A7;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     position: absolute;
     bottom: 81px;
     right: 0;
@@ -61,7 +61,7 @@ h2 {
 .best-button > a {
     color: #f6f6f6;
     text-decoration: none;
-    font-size: 32px;
+    font-size: 50px;
     line-height: 100%;
 }
 
