@@ -45,3 +45,11 @@ h2 {
 .gifts-item > img {
     width: 300px;
 }
+
+.button {
+    display: none;
+}
+
+.btnimg:hover + .button, .button:hover {
+    display: inline-block;
+}
