@@ -62,6 +62,10 @@ h2 {
     right: 0;
 }
 
+.gifts-button {
+    right: 748px;
+}
+
 .gifts-button > a,
 .best-button > a {
     color: #f6f6f6;
