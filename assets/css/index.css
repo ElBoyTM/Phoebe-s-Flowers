@@ -5,6 +5,16 @@
     --gifts-green: #E9EBC6;
 }
 
+@font-face {
+    font-family: "DeliusSwashCaps";
+    src: url("../fonts/DeliusSwashCaps-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
 /* Semantic */
 body {
     margin: 0;
@@ -13,11 +23,20 @@ body {
 }
 
 section {
+    margin: 40px 0 0 0;
     padding: 40px 0;
 }
 
 button {
     border: none;
+}
+
+h1 {
+    color: white;
+    font-family: "DeliusSwashCaps";
+    font-size: 64px;
+    margin: 24px, auto, 0, auto;
+    margin-bottom: 0;
 }
 
 /* Classes */
@@ -56,30 +75,67 @@ button {
 }
 
 #gifts-section {
-    background-color: aqua;
+    background-color: var(--gifts-green);
     padding: 40px 0px;
 }
+
 /* NEW 💩 */
 
 header {
     background-color: #6689A1;
+    height: 128px;
+    position: relative;
+    border-bottom: 4px solid #62849B;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #cartButton {
     background-color: var(--header-blue);
     width: 35px;
+    position: absolute;
+    line-height: normal;
+    top: 44px;
+    right: 40px;
 }
 
 i {
     color: white;
+    font-size: 32px;
+}
+
+nav {
+    background-color: var(--header-blue);
 }
 
 nav > ul {
-    height: 128px;
+    color: white;
+    height: 75px;
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.dropdown-toggle {
+    background-color: var(--header-blue);
+    color: white;
+}
+
+#mini-bouquets {
+    background-color: var(--mini-pink);
+    display: flex;
+    display: row;
+}
+
+#best-section {
+    background-color: var(--best-peach);
+}
+
+aside > img {
+    width: 300px;
+}
