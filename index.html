@@ -14,7 +14,7 @@
     <script src="./assets/js/script.js"></script>
 </head>
 
-<body>
+<body id="index-body">
     <header>
         <h1>Phoebe's Flowers</h1>
         <button type="button" data-bs-toggle="modal" data-bs-target="#cartModalDiv">CartIconHere</button>
@@ -56,11 +56,12 @@
         </ul>
     </nav>
     <!-- Modal Placeholders -->
-    <div id="cartModalDiv" style="display: none;" class="modal"></div>
+    <div id="cartModalDiv" class="modal fade"></div>
+    <div id="couponModalDiv" class="modal fade"></div>
     <!--Mini-Bouquets-->
     <section>
         <div></div>
-        <h2>New! Mini-Bouquets in a mug!</h2>
+        <h2 class="section-title">New! Mini-Bouquets in a mug!</h2>
         <button>Shop Minis</button>
     </section>
     <!--Best Seller-->
@@ -129,13 +130,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script>
-        $(function () {
-            $("#cartModalDiv").load("cart.html");
-        });
-        function showCartModal() {
-            $('#cartModal').modal('show');
-            
-        }
-    </script>
 </body>

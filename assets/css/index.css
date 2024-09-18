@@ -1,27 +1,24 @@
-* {
+/* Semantic */
+body {
     margin: 0;
     padding: 0;
     text-align: center;
-}
-
-#row {
-    display: flex;
-    justify-content: center;
-}
-
-.best-item {
-    margin: 30px;
-}
-
-.best-item > img {
-    height: 30rem;
 }
 
 section {
     padding: 40px 0;
 }
 
-h2 {
+/* Classes */
+.best-item {
+    margin: 30px;
+}
+
+.best-item>img {
+    height: 30rem;
+}
+
+.section-title {
     padding: 0 0 40px 0;
 }
 
@@ -33,15 +30,22 @@ h2 {
 
 }
 
+.gifts-item {
+    margin: 0 50px 40px;
+}
+
+.gifts-item>img {
+    width: 300px;
+}
+
+/* Ids */
+#row {
+    display: flex;
+    justify-content: center;
+}
+
 #gifts-section {
     background-color: aqua;
     padding: 40px 0px;
 }
 
-.gifts-item {
-    margin: 0 50px 40px;
-}
-
-.gifts-item > img {
-    width: 300px;
-}
