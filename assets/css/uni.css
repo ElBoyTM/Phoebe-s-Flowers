@@ -19,6 +19,6 @@
     src: url("../fonts/DeliusSwashCaps-Regular.ttf");
 }
 
-h1 {
-    font-family: 'Poppins-SemiBold';
+h1, h2, h3, h4, p {
+    line-height: normal;
 }
