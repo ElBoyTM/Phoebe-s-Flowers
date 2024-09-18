@@ -47,17 +47,22 @@ h2 {
     width: 300px;
 }
 
+.gifts-button,
 .best-button {
     display: none;
     background-color: #A7A7A7;
     height: 60px;
     width: 60px;
     position: absolute;
-    bottom: 81px;
     right: 0;
     justify-content: center;
 }
 
+.best-button {
+    bottom: 81px;
+}
+
+.gifts-button > a,
 .best-button > a {
     color: #f6f6f6;
     text-decoration: none;
@@ -65,6 +70,7 @@ h2 {
     line-height: 100%;
 }
 
+.btnimg:hover + .gifts-button, .gifts-button:hover,
 .btnimg:hover + .best-button, .best-button:hover {
     display: inline-flex;
 }
