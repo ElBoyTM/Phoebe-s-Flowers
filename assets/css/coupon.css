@@ -7,7 +7,7 @@
     src: url("../fonts/Poppins-Regular.ttf");
 }
 
-main {
+#coupon-main {
     background-color: #FFDABC;
     background-image: url("../images/flowers-warm.png");
     width: 800px;
@@ -29,28 +29,28 @@ main {
 }
 
 input,
-button,
-a {
+#join,
+#closeCouponModal {
     display: block;
 }
 
 input,
-button {
+#join {
     margin: auto;
 }
 
-h1 {
+.coupon-h1 {
     color: #E58673;
     font-size: 96px;
 }
 
-h2 {
+.coupon-h2 {
     color: #8A8A8A;
     font-size: 24px;
     padding-bottom: 40px;
 }
 
-a {
+#closeCouponModal {
     color: #A7A7A7;
     font-size: 16px;
 }
@@ -61,14 +61,15 @@ input {
     height: 60px;
     font-size: 35px;
     margin-bottom: 32px;
+    padding: 0 0 0 16px;
 }
 
 ::placeholder {
     color: #A7A7A7;
-    font-size: 35px;
+    font-size: 32px;
 }
 
-button {
+#join {
     width: 545px;
     height: 60px;
     background-color: #E58673;

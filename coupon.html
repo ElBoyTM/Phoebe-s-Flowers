@@ -5,17 +5,21 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/coupon.css" />
 </head>
 
-<body>
-    <main>
-        <section id="box">
-            <header>
-                <h1>25% OFF</h1>
-                <h2>your order when you join our newsletter</h2>
-            </header>
-            <input id="email" placeholder="Email Address">
-            <button id="join">Join Newsletter</button>
-            <a href="#">decline</a>
-        </section>
-    </main>
+<body id="couponModal" class="modal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div id="coupon-main">
+                <section id="box">
+                    <div>
+                        <h1 class="coupon-h1">25% OFF</h1>
+                        <h2 class="coupon-h2">your order when you join our newsletter</h2>
+                    </div>
+                    <input id="email" placeholder="Email Address">
+                    <button id="join">Join Newsletter</button>
+                    <a id="closeCouponModal" href="#">decline</a>
+                </section>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
