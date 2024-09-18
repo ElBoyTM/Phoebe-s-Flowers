@@ -13,6 +13,7 @@
     src: url("../fonts/Poppins-SemiBold.ttf");
 }
 
+/* Classes */
 #cartModal {
     margin: 0;
     padding: 0;
@@ -26,25 +27,10 @@
     
 }
 
-.cart-h1 {
-    font-family: 'Poppins-Regular';
-    font-size: 36px;
-}
-
-.cart-h2 {
-    font-size: 32px;
-    font-family: 'Poppins-Regular';
-}
-
-.cart-h3 {
-    font-size: 24px;
-    font-family: 'Poppins-Regular';
-}
-
 #cart-header, #cart-footer {
     background-color: #94a68c;
 }
-/* set the header to row */
+
 #cart-header {
     height: 80px;
     border-top-left-radius: 16px;
@@ -55,18 +41,18 @@
     justify-content: space-between;
 }
 
-#cart-footer {
-    height: 150px;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    width: 500px;
-}
-
 #cart-main {
     display: flex;
     background-color: #c2c9a8;
     background-image: url("../images/flowers-cool.png");
     height: 500px;
+    width: 500px;
+}
+
+#cart-footer {
+    height: 150px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
     width: 500px;
 }
 
@@ -90,11 +76,6 @@
     font-size: 24px;
     border: 0;
     color: white;
-}
-
-.modal-content  {
-    border-radius: 16px; 
-    border: 0;
 }
 
 #closeButton {
@@ -140,4 +121,27 @@
     padding: 0 24px 0 0;
     margin: 16px 0 0 0;
 }
+
+/* Ids */
+.cart-h1 {
+    font-family: 'Poppins-Regular';
+    font-size: 36px;
+}
+
+.cart-h2 {
+    font-size: 32px;
+    font-family: 'Poppins-Regular';
+}
+
+.cart-h3 {
+    font-size: 24px;
+    font-family: 'Poppins-Regular';
+}
+
+.modal-content  {
+    border-radius: 16px; 
+    border: 0;
+}
+
+
 

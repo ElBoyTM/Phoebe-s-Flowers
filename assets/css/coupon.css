@@ -1,12 +1,41 @@
-* {
-    margin: 0;
-}
-
 @font-face {
     font-family: "Poppins-Regular";
     src: url("../fonts/Poppins-Regular.ttf");
 }
 
+* {
+    margin: 0;
+}
+
+input {
+    border: 2px solid #8A8A8A;
+    width: 515px;
+    height: 60px;
+    font-size: 35px;
+    margin-bottom: 32px;
+    padding: 0 0 0 16px;
+}
+
+::placeholder {
+    color: #A7A7A7;
+    font-size: 32px;
+}
+
+/* Classes */
+.coupon-h1 {
+    color: #E58673;
+    font-size: 96px;
+    margin-bottom: 16px;
+    line-height: 0.8;
+}
+
+.coupon-h2 {
+    color: #8A8A8A;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/* Ids */
 #coupon-main {
     background-color: #FFDABC;
     background-image: url("../images/flowers-warm.png");
@@ -37,33 +66,6 @@ input,
 input,
 #join {
     margin: auto;
-}
-
-.coupon-h1 {
-    color: #E58673;
-    font-size: 96px;
-    margin-bottom: 16px;
-    line-height: 0.8;
-}
-
-.coupon-h2 {
-    color: #8A8A8A;
-    font-size: 24px;
-    margin-bottom: 40px;
-}
-
-input {
-    border: 2px solid #8A8A8A;
-    width: 515px;
-    height: 60px;
-    font-size: 35px;
-    margin-bottom: 32px;
-    padding: 0 0 0 16px;
-}
-
-::placeholder {
-    color: #A7A7A7;
-    font-size: 32px;
 }
 
 #join {
