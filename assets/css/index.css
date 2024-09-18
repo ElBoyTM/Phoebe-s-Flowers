@@ -48,8 +48,17 @@ h2 {
 
 .button {
     display: none;
+    background-color: #A7A7A7;
+    color: #8A8A8A;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 500;
+    height: 40px;
+    width: 40px;
+    text-align: center;
 }
 
 .btnimg:hover + .button, .button:hover {
-    display: inline-block;
+    display: inline-flex;
+    position: absolute;
 }
