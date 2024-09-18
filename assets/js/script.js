@@ -12,6 +12,6 @@ $(function () {
         }, 2500);
     }
     
-    showCouponUponLoad();
+    // showCouponUponLoad();
 });
 
