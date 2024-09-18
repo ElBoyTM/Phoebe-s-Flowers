@@ -23,7 +23,7 @@
     background-color: white;
     text-align: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
     border: 15px solid #E58673;
     width: 625px;
 }
@@ -42,22 +42,19 @@ input,
 .coupon-h1 {
     color: #E58673;
     font-size: 96px;
+    margin-bottom: 16px;
+    line-height: 0.8;
 }
 
 .coupon-h2 {
     color: #8A8A8A;
     font-size: 24px;
-    padding-bottom: 40px;
-}
-
-#closeCouponModal {
-    color: #A7A7A7;
-    font-size: 16px;
+    margin-bottom: 40px;
 }
 
 input {
     border: 2px solid #8A8A8A;
-    width: 545px;
+    width: 515px;
     height: 60px;
     font-size: 35px;
     margin-bottom: 32px;
@@ -70,11 +67,18 @@ input {
 }
 
 #join {
-    width: 545px;
+    width: 515px;
     height: 60px;
     background-color: #E58673;
     color: white;
     font-size: 24px;
     border: 0;
     margin-bottom: 8px;
+}
+
+#closeCouponButton {
+    color: #A7A7A7;
+    font-size: 16px;
+    background-color: white;
+    border: 0;
 }

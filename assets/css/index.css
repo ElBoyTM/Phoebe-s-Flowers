@@ -1,4 +1,4 @@
-#index-body {
+body {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -13,7 +13,7 @@
     margin: 30px;
 }
 
-.best-item > img {
+.best-item>img {
     height: 30rem;
 }
 
@@ -42,6 +42,6 @@ section {
     margin: 0 50px 40px;
 }
 
-.gifts-item > img {
+.gifts-item>img {
     width: 300px;
 }
