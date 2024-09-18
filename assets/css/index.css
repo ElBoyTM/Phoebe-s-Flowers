@@ -1,4 +1,4 @@
-* {
+#index-body {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -21,7 +21,7 @@ section {
     padding: 40px 0;
 }
 
-h2 {
+.section-title {
     padding: 0 0 40px 0;
 }
 
