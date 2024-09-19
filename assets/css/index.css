@@ -45,6 +45,7 @@ h1 {
 
 .best-item>img {
     height: 25rem;
+    margin: 0 0 24px 0;
 }
 
 .section-title {
@@ -53,20 +54,20 @@ h1 {
     font-size: 40px;
 }
 
-.row {
+#gifts-row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 50px;
-    justify-content: space-between;
-
+    justify-content: center;
 }
 
 .gifts-item {
-    margin: 0 50px 40px;
+    margin: 0 30px 40px;
 }
 
 .gifts-item>img {
-    width: 300px;
+    width: 25rem;
+    margin: 0 0 24px 0;
 }
 
 /* Ids */
@@ -120,6 +121,7 @@ nav > ul {
     font-size: 20px;
     justify-content: space-between;
     align-items: center;
+    padding: 0 60px;
 }
 
 .dropdown-toggle {
@@ -131,6 +133,12 @@ nav > ul {
     background-color: var(--mini-pink);
     display: flex;
     display: row;
+}
+
+#best-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #best-section {
@@ -165,10 +173,11 @@ aside > img {
 #mini-bouquets > div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 38rem;
     font-size: 32px;
+    padding: 1.5rem;
 }
 
 aside {
@@ -178,10 +187,34 @@ aside {
 
 .index-button {
     color: white;
-    padding: 12px 24px;
-    /* padding: 0.75em 1.5em; */
+    padding: 0.75rem 1.5rem;
     border-radius: 16px;
     font-family: "Poppins-Regular";
     font-size: 20px;
 }
 
+#newLabel {
+    color: #E57E7E;
+    font-family: "DeliusSwashCaps";
+    font-size: 50px;
+}
+
+#mini-button {
+    background-color: #426A5A;
+}
+
+#gifts-button {
+    background-color: #402E2A;
+}
+
+#best-button {
+    background-color: #E58673;
+}
+
+.white {
+    border: 6px solid white;
+}
+
+.green {
+    border: 6px solid white;
+}
