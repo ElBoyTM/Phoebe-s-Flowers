@@ -41,40 +41,31 @@ h2 {
 
 .gifts-item {
     margin: 0 50px 40px;
+    position: relative;
 }
 
 .gifts-item > img {
     width: 300px;
 }
 
-.gifts-button,
-.best-button {
+.imgbutton {
     display: none;
     background-color: #A7A7A7;
     height: 60px;
     width: 60px;
     position: absolute;
     justify-content: center;
-}
-
-.best-button {
     bottom: 81px;
     right: 0;
 }
 
-.gifts-button {
-    right: 748px;
-}
-
-.gifts-button > a,
-.best-button > a {
+.imgbutton > a {
     color: #f6f6f6;
     text-decoration: none;
     font-size: 50px;
     line-height: 100%;
 }
 
-.btnimg:hover + .gifts-button, .gifts-button:hover,
-.btnimg:hover + .best-button, .best-button:hover {
+.btnimg:hover + .imgbutton, .imgbutton:hover {
     display: inline-flex;
 }
