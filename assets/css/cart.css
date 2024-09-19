@@ -13,80 +13,88 @@
     src: url("../fonts/Poppins-SemiBold.ttf");
 }
 
-* {
+/* Classes */
+#cartModal {
     margin: 0;
     padding: 0;
     color: white;
 }
 
-h1 {
-    font-family: 'Poppins-Regular';
-    font-size: 36px;
+#cartModalDiv {
+    margin: 0;
+    padding: 0;
+    color: white;
+    
 }
 
-h2 {
-    font-size: 32px;
-    font-family: 'Poppins-Regular';
-}
-
-h3 {
-    font-size: 24px;
-    font-family: 'Poppins-Regular';
-}
-
-header, footer {
+#cart-header, #cart-footer {
     background-color: #94a68c;
 }
-/* set the header to row */
-header {
+
+#cart-header {
     height: 80px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     display: flex;
     width: 500px;
     align-items: center;
-
+    justify-content: space-between;
 }
 
-footer {
+#cart-main {
+    display: flex;
+    background-color: #c2c9a8;
+    background-image: url("../images/flowers-cool.png");
+    height: 500px;
+    width: 500px;
+}
+
+#cart-footer {
     height: 150px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     width: 500px;
 }
 
-main {
-    display: flex;
-    background-color: #c2c9a8;
-    background-image: url("../images/flowers-cool.png");
-    height: 560px;
-    width: 500px;
-}
-
-div > h1 {
+#cart-empty-label {
     width: 80%;
     padding: 24px 0;
 }
 
-footer > div {
+#cart-footer > div {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-button {
+#cart-button {
     width: 468px;
     height: 60px;
     background-color: #402e2a;
-    border-radius: 12px;
     margin: 24px 16px 16px 16px;
     font-family: 'Poppins-SemiBold';
     font-size: 24px;
     border: 0;
+    color: white;
+}
+
+#closeButton {
+    background-color: #94a68c;
+    border: 0;
+    color: white;
+    width: 45px;
+    height: 45px;
+    margin: 0 16px 0 0;
+}
+
+#closeButton > span {
+    font-size: 32px;
+    line-height: 0.8;
 }
 
 #items {
     padding: 0 0 0 32px;
+    margin: 0;
 }
 
 #title {
@@ -95,23 +103,45 @@ button {
     left: 215px;
 }
 
-#empty {
+#cart-empty-container {
     display: flex;
     background-color: #402e2a;
     width: 453px;
-    border-radius: 16px;
     text-align: center;
     margin: auto;
     justify-content: center;
 }
 
-#total-left {
+#cart-total-left {
     padding: 0 0 0 24px;
     margin: 16px 0 0 0;
 }
 
-#total-right {
+#cart-total-right {
     padding: 0 24px 0 0;
     margin: 16px 0 0 0;
 }
+
+/* Ids */
+.cart-h1 {
+    font-family: 'Poppins-Regular';
+    font-size: 36px;
+}
+
+.cart-h2 {
+    font-size: 32px;
+    font-family: 'Poppins-Regular';
+}
+
+.cart-h3 {
+    font-size: 24px;
+    font-family: 'Poppins-Regular';
+}
+
+.modal-content  {
+    border-radius: 16px; 
+    border: 0;
+}
+
+
 
