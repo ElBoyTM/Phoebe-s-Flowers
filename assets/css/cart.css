@@ -12,23 +12,29 @@
     font-family: "Poppins-SemiBold";
     src: url("../fonts/Poppins-SemiBold.ttf");
 }
-
+:root {
+    --color-white: white;
+    --color-dark: #402e2a;
+    --color-light: #c2c9a8;
+    --color-header-footer: #94a68c;
+}
 /* Classes */
 #cartModal {
     margin: 0;
     padding: 0;
-    color: white;
+    color: var(--color-white);
 }
 
 #cartModalDiv {
     margin: 0;
     padding: 0;
-    color: white;
+    color: var(--color-white);
+
     
 }
 
 #cart-header, #cart-footer {
-    background-color: #94a68c;
+    background-color: var(--color-header-footer);
 }
 
 #cart-header {
@@ -43,7 +49,7 @@
 
 #cart-main {
     display: flex;
-    background-color: #c2c9a8;
+    background-color: var(--color-light);
     background-image: url("../images/flowers-cool.png");
     height: 500px;
     width: 500px;
@@ -70,18 +76,18 @@
 #cart-button {
     width: 468px;
     height: 60px;
-    background-color: #402e2a;
+    background-color: var(--color-dark);
     margin: 24px 16px 16px 16px;
     font-family: 'Poppins-SemiBold';
     font-size: 24px;
     border: 0;
-    color: white;
+    color: var(--color-white);
 }
 
 #closeButton {
-    background-color: #94a68c;
+    background-color: var(--color-header-footer);
     border: 0;
-    color: white;
+    color: var(--color-white);
     width: 45px;
     height: 45px;
     margin: 0 16px 0 0;
@@ -105,7 +111,7 @@
 
 #cart-empty-container {
     display: flex;
-    background-color: #402e2a;
+    background-color: var(--color-dark);
     width: 453px;
     text-align: center;
     margin: auto;
