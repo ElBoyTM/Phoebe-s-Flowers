@@ -1,4 +1,25 @@
-/* Semantic */
+:root {
+--body-margin: 0;
+--body-padding: 0;
+--text-align: center;
+
+--section-padding:40px 0;
+
+--best-item-margin: 30px;
+--best-item-img-height:30rem;
+
+--section-title-padding: 0 0 40px 0;
+
+--row-margin: 0 50px;
+--row-justify: space-between;
+
+--gifts-item-margin: 0 50px 40px;
+--gifts-item-img-width:300px;
+
+--gift-section-bg-color: aqua;
+--gifts-section-padding: 40 px 0;
+}
+   
 body {
     margin: 0;
     padding: 0;
