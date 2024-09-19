@@ -17,6 +17,10 @@
     --color-dark: #402e2a;
     --color-light: #c2c9a8;
     --color-header-footer: #94a68c;
+
+    --font-regular: 'Poppins-Regular';
+    --font-medium: 'Poppins-Medium';
+    --font-semibold: 'Poppins-Semibold';
 }
 /* Classes */
 #cartModal {
