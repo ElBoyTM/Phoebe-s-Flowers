@@ -4,14 +4,12 @@ $(function () {
     $("#couponModalDiv").load("coupon.html");
 
     function showCouponUponLoad() {
-        //set interval 
-        // let counter = 1;
         const couponInterval = setInterval(function () {
             $("#couponModalDiv").modal('show');
             clearInterval(couponInterval);
         }, 2500);
     }
-    
+    // console.log(window.innerWidth);
     showCouponUponLoad();
 });
 
