@@ -80,6 +80,11 @@ h1 {
     justify-content: center;
 }
 
+.best-item {
+    margin: 30px;
+    position: relative;
+}
+
 #gifts-section {
     background-color: var(--gifts-green);
     padding: 40px 0;
@@ -206,6 +211,37 @@ aside {
     font-family: "DeliusSwashCaps";
     font-size: 60px;
     rotate: -13deg;
+}
+
+.gifts-item {
+    margin: 0 50px 40px;
+    position: relative;
+}
+
+.gifts-item > img {
+    width: 300px;
+}
+
+.imgbutton {
+    display: none;
+    background-color: #A7A7A7;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    justify-content: center;
+    bottom: 81px;
+    right: 0;
+}
+
+.imgbutton > a {
+    color: #f6f6f6;
+    text-decoration: none;
+    font-size: 50px;
+    line-height: 100%;
+}
+
+.btnimg:hover + .imgbutton, .imgbutton:hover {
+    display: inline-flex;
 }
 
 #miniLabel {
