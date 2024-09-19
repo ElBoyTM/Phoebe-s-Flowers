@@ -14,6 +14,10 @@
     font-family: "Poppins-Regular";
     src: url("../fonts/Poppins-Regular.ttf");
 }
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("../fonts/Poppins-Light.ttf");
+}
 
 /* Semantic */
 body {
@@ -177,7 +181,7 @@ aside > img {
     align-items: center;
     width: 38rem;
     font-size: 32px;
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 aside {
@@ -190,13 +194,21 @@ aside {
     padding: 0.75rem 1.5rem;
     border-radius: 16px;
     font-family: "Poppins-Regular";
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #newLabel {
     color: #E57E7E;
     font-family: "DeliusSwashCaps";
-    font-size: 50px;
+    font-size: 60px;
+    /* padding: 0 250px 0 0; */
+    rotate: -13deg;
+}
+
+#miniLabel {
+    /* margin: auto 0; */
+    font-size: 36px;
+    font-family: "Poppins-Light";
 }
 
 #mini-button {

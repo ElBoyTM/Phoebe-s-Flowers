@@ -11,7 +11,6 @@ $(function () {
             clearInterval(couponInterval);
         }, 2500);
     }
-    
     // showCouponUponLoad();
 });
 
