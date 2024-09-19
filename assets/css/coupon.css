@@ -7,20 +7,6 @@
     margin: 0;
 }
 
-input {
-    border: 2px solid #8A8A8A;
-    width: 515px;
-    height: 60px;
-    font-size: 35px;
-    margin-bottom: 32px;
-    padding: 0 0 0 16px;
-}
-
-::placeholder {
-    color: #A7A7A7;
-    font-size: 32px;
-}
-
 /* Classes */
 .coupon-h1 {
     color: #E58673;
@@ -58,14 +44,14 @@ input {
 }
 
 input,
-#join,
-#closeCouponModal {
-    display: block;
+#join {
+    margin: 0 auto;
 }
 
 input,
-#join {
-    margin: auto;
+#join,
+#closeCouponModal {
+    display: block;
 }
 
 #join {
@@ -83,4 +69,18 @@ input,
     font-size: 16px;
     background-color: white;
     border: 0;
+}
+
+input {
+    border: 2px solid #8A8A8A;
+    width: 515px;
+    height: 60px;
+    font-size: 35px;
+    margin-bottom: 32px;
+    padding: 0 0 0 16px;
+}
+
+::placeholder {
+    color: #A7A7A7;
+    font-size: 32px;
 }

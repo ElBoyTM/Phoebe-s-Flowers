@@ -1,3 +1,24 @@
+:root {
+    --header-blue: #6689A1;
+    --mini-pink: #ffbbbb;
+    --best-peach: #FFDABC;
+    --gifts-green: #E9EBC6;
+}
+
+@font-face {
+    font-family: "DeliusSwashCaps";
+    src: url("../fonts/DeliusSwashCaps-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("../fonts/Poppins-Light.ttf");
+}
+
 /* Semantic */
 body {
     margin: 0;
@@ -6,7 +27,19 @@ body {
 }
 
 section {
-    padding: 40px 0;
+    margin: 40px 0 0 0;
+}
+
+button {
+    border: none;
+}
+
+h1 {
+    color: white;
+    font-family: "DeliusSwashCaps";
+    font-size: 64px;
+    margin: 24px, auto, 0, auto;
+    margin-bottom: 0;
 }
 
 /* Classes */
@@ -15,27 +48,30 @@ section {
 }
 
 .best-item>img {
-    height: 30rem;
+    height: 25rem;
+    margin: 0 0 24px 0;
 }
 
 .section-title {
     padding: 0 0 40px 0;
+    color: black;
+    font-size: 40px;
 }
 
-.row {
+#gifts-row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 50px;
-    justify-content: space-between;
-
+    justify-content: center;
 }
 
 .gifts-item {
-    margin: 0 50px 40px;
+    margin: 0 30px 40px;
 }
 
 .gifts-item>img {
-    width: 300px;
+    width: 25rem;
+    margin: 0 0 24px 0;
 }
 
 /* Ids */
@@ -45,7 +81,155 @@ section {
 }
 
 #gifts-section {
-    background-color: aqua;
-    padding: 40px 0px;
+    background-color: var(--gifts-green);
+    padding: 40px 0;
 }
 
+/* NEW 💩 */
+header {
+    background-color: #6689A1;
+    height: 128px;
+    position: relative;
+    border-bottom: 4px solid #62849B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cartButton {
+    background-color: var(--header-blue);
+    width: 35px;
+    position: absolute;
+    line-height: normal;
+    top: 44px;
+    right: 40px;
+}
+
+i {
+    color: white;
+    font-size: 32px;
+}
+
+nav {
+    background-color: var(--header-blue);
+}
+
+nav > ul {
+    color: white;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.dropdown-toggle {
+    background-color: var(--header-blue);
+    color: white;
+}
+
+#mini-bouquets {
+    background-color: var(--mini-pink);
+    display: flex;
+    display: row;
+}
+
+#best-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#best-section {
+    background-color: var(--best-peach);
+    padding: 40px 0;
+}
+
+aside > img {
+    border: thick solid white;
+}
+
+#mug1, #mug3 {
+    width: 21%;
+    object-fit: cover;
+    margin-top: -2rem;
+}
+
+#mug2 {
+    width: 37%;
+    object-fit: cover;
+    border-radius: 60px 60px 0 0;
+    margin: 0 3.5rem -2rem;
+    
+}
+
+#mug1 {
+    border-radius: 0 0 60px 0;
+}
+
+#mug3 {
+    border-radius: 0 0 0 60px;
+}
+
+#mini-bouquets > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 44rem;
+    font-size: 32px;
+    padding: 2rem;
+}
+
+aside {
+    width: 100%;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.index-button {
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 16px;
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+}
+
+#newLabel {
+    color: #E57E7E;
+    font-family: "DeliusSwashCaps";
+    font-size: 60px;
+    rotate: -13deg;
+}
+
+#miniLabel {
+    font-size: 36px;
+    font-family: "Poppins-Light";
+    padding: 1.5rem 0;
+}
+
+#mini-button {
+    background-color: #426A5A;
+}
+
+#gifts-button {
+    background-color: #402E2A;
+}
+
+#best-button {
+    background-color: #E58673;
+}
+
+.white {
+    border: 6px solid white;
+}
+
+.green {
+    border: 6px solid white;
+}
