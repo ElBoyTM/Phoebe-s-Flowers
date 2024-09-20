@@ -266,6 +266,9 @@ aside {
     border: 6px solid white;
 }
 
-.green {
-    border: 6px solid white;
+
+
+li > a {
+    text-decoration: none;
+
 }
