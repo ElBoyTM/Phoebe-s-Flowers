@@ -266,9 +266,16 @@ aside {
     border: 6px solid white;
 }
 
+.dropdown-menu {
+    background-color: white;
+    border: 0;
+}
 
+.dropdown-menu > li {
+    padding: 0 0 0 16px;
+}
 
 li > a {
     text-decoration: none;
-
+    color: var(--header-blue);
 }
