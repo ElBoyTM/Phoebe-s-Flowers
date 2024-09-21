@@ -269,3 +269,42 @@ aside {
 .green {
     border: 6px solid white;
 }
+
+@media screen and (max-width: 1040px){
+    #mug1, #mug3 {
+        display: none;
+    }
+    #mug2 {
+        margin: 0;
+        width: 60%;
+    }
+    aside {
+        padding: 32px;
+    }
+
+}
+
+@media screen and (max-width: 927px) {
+    #mug2 {
+        display: none;
+    }
+
+    aside {
+        width: 0px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #mini-bouquets > div {
+        width: 100%;
+    }
+
+    nav {
+        height: 125px;
+    }
+
+    nav > ul {
+        flex-direction: column;
+    }
+}
+
