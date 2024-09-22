@@ -9,7 +9,7 @@ $(function () {
             clearInterval(couponInterval);
         }, 2500);
     }
-
+    localStorage.clear();
     showCouponUponLoad();
 });
 
@@ -32,21 +32,31 @@ const itemsTable = [
     new item("Vase", 50.00)
 ];
 
-const cartContents = [];
-const runningTotal = 0.0;
-const totalItems = 0;
+let cartContents = [];
+let runningTotal = 0.0;
+let totalItems = 0;
+const addButton = document.querySelector(".imgbutton");
 
 function addItemToCart(index) {
+    //grab the stuff in local storage
+    totalItems = parseInt(localStorage.getItem('totalItems')) || 0;
+    runningTotal = parseFloat(localStorage.getItem('runningTotal')) || 0.0;
+    cartContents = JSON.parse(localStorage.getItem('cartContents')) || [];
+
     //ask for quantity thru prompt
-    const quant = prompt("How many would you like to purchase?");
+    const quant = parseInt(prompt("How many would you like to purchase?"));
 
     //add to cart
-    totalItems++;
-    runningTotal += itemsTable[index].price;
+    totalItems += quant;
+    runningTotal = runningTotal + (itemsTable[index].price * quant);
     const purchase = {
         item: itemsTable[index],
         quantity: quant
     };
 
     cartContents.push(purchase);
+
+    localStorage.setItem('cartContents', JSON.stringify(cartContents));
+    localStorage.setItem('totalItems', totalItems);
+    localStorage.setItem('runningTotal', runningTotal);
 }
