@@ -23,13 +23,11 @@ function updateCart() {
 
 function assembleCartContents(cartContents) {
     //first, remove the elements for empty case
-
     while (contents.firstChild) {
         contents.removeChild(contents.firstChild);
     }
     
     //next, loop thru each contents object and create a row for each
-    console.log("entered assemble cart function");
     for (purchase of cartContents) {
         //create the overarching element
         console.log("assemble cart entered loop");
@@ -57,5 +55,4 @@ function assembleCartContents(cartContents) {
         row.appendChild(rowCost);
         contents.appendChild(row);
     }
-    console.log("assemble cart contents has ended");
 }

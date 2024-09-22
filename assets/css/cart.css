@@ -33,8 +33,6 @@
     margin: 0;
     padding: 0;
     color: var(--color-white);
-
-    
 }
 
 #cart-header, #cart-footer {
@@ -52,7 +50,6 @@
 }
 
 #cart-main {
-    /* display: flex; */
     background-color: var(--color-light);
     background-image: url("../images/flowers-cool.png");
     height: 500px;

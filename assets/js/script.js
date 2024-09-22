@@ -9,9 +9,7 @@ $(function () {
             clearInterval(couponInterval);
         }, 2500);
     }
-    // localStorage.clear();
     showCouponUponLoad();
-    
 });
 
 class item {
@@ -57,7 +55,7 @@ function addItemToCart(index) {
     };
 
     cartContents.push(purchase);
-
+    //add to local storage
     localStorage.setItem('cartContents', JSON.stringify(cartContents));
     localStorage.setItem('totalItems', totalItems);
     localStorage.setItem('runningTotal', runningTotal);
