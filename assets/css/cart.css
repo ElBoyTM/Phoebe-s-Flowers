@@ -57,6 +57,7 @@
     background-image: url("../images/flowers-cool.png");
     height: 500px;
     width: 500px;
+    overflow-y: auto;
 }
 
 #cart-footer {
