@@ -9,8 +9,9 @@ $(function () {
             clearInterval(couponInterval);
         }, 2500);
     }
-    localStorage.clear();
+    // localStorage.clear();
     showCouponUponLoad();
+    
 });
 
 class item {
@@ -37,6 +38,7 @@ let runningTotal = 0.0;
 let totalItems = 0;
 const addButton = document.querySelector(".imgbutton");
 
+
 function addItemToCart(index) {
     //grab the stuff in local storage
     totalItems = parseInt(localStorage.getItem('totalItems')) || 0;
@@ -59,4 +61,9 @@ function addItemToCart(index) {
     localStorage.setItem('cartContents', JSON.stringify(cartContents));
     localStorage.setItem('totalItems', totalItems);
     localStorage.setItem('runningTotal', runningTotal);
+}
+
+function showCartModal() {
+    $("#cartModalDiv").modal('show');
+    updateCart();
 }

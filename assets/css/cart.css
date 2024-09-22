@@ -52,7 +52,7 @@
 }
 
 #cart-main {
-    display: flex;
+    /* display: flex; */
     background-color: var(--color-light);
     background-image: url("../images/flowers-cool.png");
     height: 500px;
@@ -153,5 +153,43 @@
     border: 0;
 }
 
+.rowStyle {
+    background-color: #c2c9ab;
+    height: 120px;
+    width: 100%;
+    border-bottom: 4px solid #94a68c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.containerStyle {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    margin-left: 24px;
+    text-align: left;
 
+}
+
+.rowTitleStyle {
+    font-size: 32px;
+    font-family: var(--font-regular);
+    margin: 0;
+}
+
+.rowQuantityStyle {
+    font-size: 14px;
+    font-family: var(--font-regular);
+    margin: 0;
+    margin-top: -8px;
+    
+}
+
+.rowCostStyle {
+    font-size: 24px;
+    font-family: var(--font-regular);
+    margin: 0;
+    margin-right: 24px;
+}
