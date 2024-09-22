@@ -33,3 +33,20 @@ const itemsTable = [
 ];
 
 const cartContents = [];
+const runningTotal = 0.0;
+const totalItems = 0;
+
+function addItemToCart(index) {
+    //ask for quantity thru prompt
+    const quant = prompt("How many would you like to purchase?");
+
+    //add to cart
+    totalItems++;
+    runningTotal += itemsTable[index].price;
+    const purchase = {
+        item: itemsTable[index],
+        quantity: quant
+    };
+
+    cartContents.push(purchase);
+}
