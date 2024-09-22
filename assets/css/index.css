@@ -229,20 +229,13 @@ aside {
     width: 60px;
     position: absolute;
     justify-content: center;
-    bottom: 112px;
+    bottom: 104px;
     right: 6px;
     color: #f6f6f6;
     text-decoration: none;
     font-size: 50px;
     line-height: 100%;
 }
-
-/* .imgbutton > a {
-    color: #f6f6f6;
-    text-decoration: none;
-    font-size: 50px;
-    line-height: 100%;
-} */
 
 .btnimg:hover + .imgbutton, .imgbutton:hover {
     display: inline-flex;
