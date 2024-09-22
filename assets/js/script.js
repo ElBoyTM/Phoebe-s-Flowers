@@ -9,7 +9,27 @@ $(function () {
             clearInterval(couponInterval);
         }, 2500);
     }
-    // console.log(window.innerWidth);
+
     showCouponUponLoad();
 });
 
+class item {
+    constructor (name, price) {
+        this.name = name,
+        this.price = price
+    }
+}
+
+const itemsTable = [
+    new item("Pastel Beauty", 40.00),
+    new item("Pale Beach", 25.00),
+    new item("Multi-size Roses", 40.00),
+    new item("Chocolates", 18.00),
+    new item("Teddy Bear", 15.00),
+    new item("Chocolate Strawberries", 10.00),
+    new item("Custom Card", 1.00),
+    new item("Flower Food", 4.00),
+    new item("Vase", 50.00)
+];
+
+const cartContents = [];
