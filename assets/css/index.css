@@ -229,11 +229,8 @@ aside {
     width: 60px;
     position: absolute;
     justify-content: center;
-    bottom: 112px;
+    bottom: 104px;
     right: 6px;
-}
-
-.imgbutton > a {
     color: #f6f6f6;
     text-decoration: none;
     font-size: 50px;
