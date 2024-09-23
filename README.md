@@ -9,6 +9,9 @@ As a flower enthusiast,
 I want to order flowers online
 so that I can get fresh, prearranged flowers delivered to me or someone else.
 
+# Preview
+<img width="1084" alt="Screenshot 2024-09-22 at 7 50 49 PM" src="https://github.com/user-attachments/assets/ff6ce09f-9954-4ec1-882d-8363291c8bb7">
+
 # Features
 - a home page that allows the user to browse through new additions, best sellers, and gifts.
 - a nav bar to allow users to navigate to other pages easily
