@@ -19,7 +19,7 @@ so that I can get fresh, prearranged flowers delivered to me or someone else.
 - a modal to overview items in the cart and the running total
 
 # View Deployed Application Here
-https://elboytm.github.io/project-1/ 
+elboytm.github.io/Phoebe-s-Flowers/
 
 # Credits
 
