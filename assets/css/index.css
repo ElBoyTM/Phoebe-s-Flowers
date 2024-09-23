@@ -40,6 +40,7 @@ h1 {
     font-size: 64px;
     margin: 24px, auto, 0, auto;
     margin-bottom: 0;
+    margin-left: 35px;
 }
 
 /* Classes */
@@ -263,8 +264,18 @@ aside {
     border: 6px solid white;
 }
 
-.green {
-    border: 6px solid white;
+.dropdown-menu {
+    background-color: white;
+    border: 0;
+}
+
+.dropdown-menu > li {
+    padding: 0 0 0 16px;
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--header-blue);
 }
 
 @media screen and (max-width: 1040px){
@@ -304,4 +315,3 @@ aside {
         flex-direction: column;
     }
 }
-
