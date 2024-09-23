@@ -25,6 +25,7 @@ function assembleCartContents(cartContents) {
     //first, remove the elements for empty case
     while (contents.firstChild) {
         contents.removeChild(contents.firstChild);
+        contents.style.padding = 0;
     }
     
     //next, loop thru each contents object and create a row for each
